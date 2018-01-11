@@ -18,7 +18,11 @@ body {
   display: flex;
   flex-grow: 2;
   align-items: center;
-  flex-basis: 200px
+}
+
+.bodyCont {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation {
@@ -35,10 +39,7 @@ body {
   color: MediumAquamarine;
 }
 
-.bodyCont {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .bodyCont h6 {
   font-family: Georgia;
