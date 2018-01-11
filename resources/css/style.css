@@ -35,12 +35,28 @@ body {
   color: MediumAquamarine;
 }
 
-.bodyCont div, h6 {
-  border: 1px solid black;
-}
-
 .bodyCont {
   display: flex;
+  justify-content: space-between;
+}
+
+.bodyCont h6 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.bodyCont p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .column.large {
@@ -53,4 +69,53 @@ body {
 
 .column.small {
   width: 240px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stories div {
+  width: 300px;
+}
+
+.mother h6 {
+  background-image: url(../images/img-story-main.png);
+  display: flex;
+}
+
+.orca h6 {
+  background-image: url(../images/img-story-2.png);
+  display: flex;
+}
+
+.burger h6 {
+  background-image: url(../images/img-story-3.png);
+  display: flex;
+}
+
+.cats h6 {
+  background-image: url(../images/img-story-1.png);
+  display: flex;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.news h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px;
+  border-bottom: 1px solid black;
 }
