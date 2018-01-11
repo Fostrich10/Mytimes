@@ -119,3 +119,35 @@ body {
   padding: 10px;
   border-bottom: 1px solid black;
 }
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 100px 0px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.info span {
+  padding: 10px;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.info a {
+  font-weight: normal;
+  color: black;
+}
+
+.copyright {
+  text-align: center;
+}
